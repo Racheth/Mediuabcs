@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+a {
+  color: #3b7e32;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  /* Add a hover effect for buttons */
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.container .s1-container {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.container .s1-container .s1 {
+  margin-bottom: 60px;
+  width: 100%;
+  min-width: 437px;
+  max-width: 760px;
+  box-sizing: border-box;
+}
+
+.container .s1-container .s1 .hn-container {
+  line-height: 84px;
+  letter-spacing: -1.2px;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-wrap: break-word;
+  color: black;
+  box-sizing: border-box;
+  display: inline;
+  white-space: pre-wrap;
+}
+
+.container .s1-container .s1 .sign-up-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .s1-container .s1 .sign-up-container form {
+  border: 3px solid #f1f1f1;
+  /* Center the avatar image inside this container */
+}
+
+.container .s1-container .s1 .sign-up-container form .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  padding: 16px;
+  /* Avatar image */
+}
+
+.container .s1-container .s1 .sign-up-container form .imgcontainer img.avatar {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.container .s1-container .s1 .sign-up-container form .upcontainer {
+  padding: 16px;
+  /* Full-width inputs */
+}
+
+.container .s1-container .s1 .sign-up-container form .upcontainer input[type=text],
+.container .s1-container .s1 .sign-up-container form .upcontainer input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.container .s1-container .s1 .sign-up-container form .frgtpswcontainer {
+  padding: 16px;
+  /* Extra style for the cancel button (red) */
+  /* The "Forgot password" text */
+}
+
+.container .s1-container .s1 .sign-up-container form .frgtpswcontainer .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.container .s1-container .s1 .sign-up-container form .frgtpswcontainer span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.container .s1-container .s1 .sign-up-container form .frgtpswcontainer a {
+  color: #237bff;
+}
+
+.container .s1-container .s1 .sign-up-container .sign-toggle {
+  margin-top: 10px;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #383737;
+}
+
+.container .s2-container {
+  background-image: url(../img/LoginLogo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #006fd6;
+  width: 52%;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.container .s2-container .s2 img {
+  inset: 0px;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Login-Styles.css.map */
